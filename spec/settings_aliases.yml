@@ -1,0 +1,11 @@
+defaults: &defaults
+  a: 1
+  b: 2
+
+development:
+  <<: *defaults
+  a: 2
+
+test:
+  <<: *defaults
+  b: 3
